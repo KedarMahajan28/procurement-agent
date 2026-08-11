@@ -163,14 +163,6 @@ the **AI Recommendations** page until a procurement manager clicks
 with a timestamp and approver, forming the audit trail called for in the
 spec's governance section.
 
-## What's intentionally out of scope for this prototype
 
-- **Vector search (FAISS/Chroma):** no concrete semantic-retrieval need yet
-  with this dataset size; noted as future work.
-- **Real OCR:** synthetic vendor "PDFs" are provided as parsed text directly,
-  since OCR quality isn't what this challenge is evaluating.
-- **Postgres:** SQLite is used for zero-setup local running; the schema in
-  `models.py` uses only standard SQLAlchemy types and moves to Postgres by
-  changing one connection string.
 
 
